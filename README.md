@@ -4,8 +4,6 @@
 
 > [⚠️ Ver instrucciones antes de iniciar](./instructions.md)
 
-This README would normally document whatever steps are necessary to get the application up and running.
-
 Things you may want to cover:
 
 - Title or Project Name
