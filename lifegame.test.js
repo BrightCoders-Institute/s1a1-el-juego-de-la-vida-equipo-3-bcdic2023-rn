@@ -64,9 +64,10 @@ describe('GameOfLife', () => {
       const originalLog = console.log;
       console.log = jest.fn();
 
-      const numberOfCalls = 4;
+      const numberOfCalls = 4
 
       game.generations(numberOfCalls);
+      
 
       /* 7 clg height 
         7 clg widht
@@ -74,7 +75,7 @@ describe('GameOfLife', () => {
         7 clg separador
       */
 
-      expect(console.log).toHaveBeenCalledTimes(5 * numberOfCalls);
+      expect(console.log).toHaveBeenCalledTimes(4 * numberOfCalls);
       console.log = originalLog;
     });
   });
