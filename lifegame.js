@@ -64,7 +64,7 @@ class GameOfLife {
       for (let num = 0; num < generationNumber; num++) {
         this.printBoard();
         this.updateBoard();
-        console.log(`Generación ${num + 1}`);
+        console.log(`Generación ${num + 1}`); /* Separador */
       }
     };
     generation();
@@ -74,3 +74,5 @@ class GameOfLife {
 const game = new GameOfLife(10, 10);
 game.populateBoard();
 game.generations(10);
+
+module.exports = GameOfLife;
